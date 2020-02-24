@@ -1,0 +1,139 @@
+/*Bloc principale*/
+#main-block
+{
+    display: flex;
+    margin: 0 auto;
+    padding: 18px;
+    width: 510px;
+    height: 670px;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px #000;
+}
+
+img
+{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    box-shadow: 0px 0px 10px #000;
+
+    
+}
+/*Bloc blanc contenant les détails*/
+.white-block
+{
+    background-color: white;
+    width: 245px;
+    height: 92px;
+    margin-top: 125px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex: wrap;
+}
+/*Boutons respectifs de chaque images*/
+.button-mango, .button-banana,.button-ananas,.button-coconut
+{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 80px;
+    width: 50px;
+    font-size: 125%;
+    height: 25px;
+    
+}
+
+.button-mango
+{
+    position: relative;
+    top: 54px;
+    left: 20px;
+}
+
+.button-banana
+{
+    position: relative;
+    top: 54px;
+    left: 30px;
+}
+
+.button-coconut
+{
+
+    position: relative;
+    top: 54px;
+    left: 20px;
+}
+
+.button-ananas
+{
+    position: relative;
+    top : 54px;
+    left: 30px;
+}
+/*Padding du bloc détail*/
+.details-fruits
+{
+    padding-left: 20px;
+}
+/*Police d'écriture*/
+h5
+{
+    height: 20px;
+    position: relative;
+    top: 
+    right: 100x;
+    font-family: arial;
+
+}
+
+h4
+{
+    color: #000;
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+    left: 20x;
+}
+
+/*Positionnement et couleur des images*/
+#image-ananas, #image-banana, #image-coconut, #image-mangue
+{
+    margin: auto;
+    position: relative;
+    top: 70px;
+    left: 55px;
+  
+}
+
+#ananas
+{
+    background-color: #899857;
+    border-radius: 20px;
+    
+}
+
+#banana
+{
+    background-color: #FBEAB5;
+    border-radius: 20px;
+
+}
+
+#coconut
+{
+    background-color: #fe8761;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+#mango
+{
+    background-color: #ff7c7c;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
